@@ -31,22 +31,15 @@ export default function Story() {
                 <span className="font-semibold text-[#4B2D8F]">
                   Amazing Minds
                 </span>{" "}
-                is a community initiative dedicated to supporting individuals
-                with special needs (OKU).
+                was founded in July 2022 by Sabrina, a mentor for children with special needs and a 2023 Encyclopedia Britannica honoree. Her vision is to establish a training center that equips children with practical skills, enabling self-reliance and easing family burdens.
               </p>
 
               <p>
-                We believe every individual possesses unique talents and
-                limitless potential. With the right environment,
-                encouragement and opportunities, these talents can blossom and
-                inspire the world.
+                Inspired by the UniTem Ai project, Sabrina launched painting classes, expanding by June 2024 to include sign language workshops taught by deaf students. These workshops foster public communication while providing educators with income and dignity.
               </p>
 
               <p>
-                Through art programmes, sports activities and meaningful
-                community engagement, Amazing Minds provides a safe and
-                inclusive platform where individuals can discover confidence,
-                creativity and joy.
+                Sabrina plans to broaden training to include diverse skills, helping children find meaningful employment. She also champions shifting perceptions from "disabled" to "differently-abled" through education and advocacy. Her guiding belief: "We are not disabled, we are different-able."
               </p>
 
             </div>
