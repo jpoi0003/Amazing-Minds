@@ -1,0 +1,86 @@
+@import "tailwindcss";
+
+/* ===============================
+   Global Theme
+================================= */
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 90px;
+}
+
+body {
+  margin: 0;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-body), ui-sans-serif, system-ui, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading), serif;
+}
+
+/* ===============================
+   Rainbow Paint Text
+================================= */
+
+@keyframes paintFlow {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.paint-text {
+  background: linear-gradient(
+    120deg,
+    #ff6b6b,
+    #ff9f43,
+    #ffd93d,
+    #6bcf63,
+    #4dabf7,
+    #845ef7,
+    #e64980,
+    #ff6b6b
+  );
+
+  background-size: 300% 300%;
+  animation: paintFlow 8s ease infinite;
+
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  display: inline-block;
+}
+
+/* ===============================
+   Selection Colour
+================================= */
+
+::selection {
+  background: #4b2d8f;
+  color: white;
+}
