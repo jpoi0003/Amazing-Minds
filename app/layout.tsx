@@ -40,9 +40,6 @@ export const metadata: Metadata = {
   ],
 
   // 🔍 GOOGLE SEARCH CONSOLE VERIFICATION
-  verification: {
-    google: "5P42zfceQdjcWiPZdzfzsfj1WYRBXcPzAOskZE4nMVE",
-  },
 
   openGraph: {
     title: "Amazing Minds",
