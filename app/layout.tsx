@@ -39,6 +39,11 @@ export const metadata: Metadata = {
     "non-profit Malaysia",
   ],
 
+  // 🔍 GOOGLE SEARCH CONSOLE VERIFICATION
+  verification: {
+    google: "5P42zfceQdjcWiPZdzfzsfj1WYRBXcPzAOskZE4nMVE",
+  },
+
   openGraph: {
     title: "Amazing Minds",
     description:
