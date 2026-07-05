@@ -24,10 +24,44 @@ const cormorant = Cormorant_Garamond({
   variable: "--font-heading",
 });
 
+// ✅ SEO + Google + Social Sharing Metadata
 export const metadata: Metadata = {
-  title: "Amazing Minds",
+  title: "Amazing Minds - Inclusive Community Art Programme",
   description:
-    "Amazing Minds is a community initiative supporting individuals with special needs through art, sports and community.",
+    "Amazing Minds is a non-profit initiative in Malaysia supporting individuals with special needs through art, creativity, sports and community engagement.",
+
+  keywords: [
+    "special needs Malaysia",
+    "OKU Malaysia",
+    "inclusive education",
+    "community art Malaysia",
+    "art therapy",
+    "non-profit Malaysia",
+  ],
+
+  openGraph: {
+    title: "Amazing Minds",
+    description:
+      "Empowering individuals with special needs through creativity, art and community.",
+    url: "https://amazingminds-website.vercel.app",
+    siteName: "Amazing Minds",
+    images: [
+      {
+        url: "/hero/hero.jpg",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Amazing Minds",
+    description:
+      "Inclusive community art programme empowering special needs individuals.",
+    images: ["/hero/hero.jpg"],
+  },
 };
 
 export default function RootLayout({
