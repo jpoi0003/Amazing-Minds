@@ -24,7 +24,7 @@ const testimonials = [
   },
   {
     quote:
-      "As MUPhaS Public Health Campaign organizer, I was thrilled to bring Amazing Minds to Monash University Malaysia, their stunning artwork not only captivated our audience but also drew participation to our campaign and sparking vital conversations about brain health. ",
+      "As MUPhaS Public Health Campaign organizer, I was thrilled to bring Amazing Minds to Monash University Malaysia, their stunning artwork not only captivated our audience but also drew participation to our campaign. ",
     author: "Juliana Poi",
     location: "MUPhaS PHC 2026",
   },
