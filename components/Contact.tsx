@@ -1,8 +1,13 @@
 "use client";
 
 import { useState } from "react";
+import { useLanguage } from "@/context/LanguageContext";
+import { translations } from "@/translations";
 
 export default function Contact() {
+  const { language } = useLanguage();
+  const t = translations[language];
+
   const [form, setForm] = useState({
     name: "",
     email: "",
@@ -22,6 +27,7 @@ export default function Contact() {
     e.preventDefault();
 
     const subject = `New Enquiry from ${form.name}`;
+
     const body = `
 Name: ${form.name}
 Email: ${form.email}
@@ -29,7 +35,7 @@ Interest: ${form.interest}
 
 Message:
 ${form.message}
-    `;
+`;
 
     window.location.href = `mailto:Brightbridgehubs@gmail.com?subject=${encodeURIComponent(
       subject
@@ -42,65 +48,75 @@ ${form.message}
       "Hello! I would like to know more about Amazing Minds programs and how I can get involved."
     );
 
-  const facebookLink = "https://www.facebook.com/share/1HsJe3rycH/";
+  const facebookLink =
+    "https://www.facebook.com/share/1HsJe3rycH/";
 
   return (
     <section id="contact" className="py-20 md:py-32 bg-white">
       <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-16">
 
-        {/* LEFT: CONTACT INFO */}
+        {/* LEFT */}
         <div>
+
           <h2 className="text-5xl font-semibold text-[#4B2D8F]">
-            Contact Us
+            {t.contact.title}
           </h2>
 
           <p className="mt-6 text-gray-600 leading-8">
-            We would love to hear from you. Reach out via email, phone,
-            WhatsApp, Facebook, or send us a message using the form.
+            {t.contact.description}
           </p>
 
-          {/* CONTACT LINKS */}
           <div className="mt-10 space-y-5 text-gray-700">
 
-            {/* EMAIL */}
+            {/* Email */}
             <a
               href="mailto:Brightbridgehubs@gmail.com"
               className="flex items-center gap-3 hover:text-[#4B2D8F] transition"
             >
-              📧 <span>Email: Brightbridgehubs@gmail.com</span>
+              📧
+              <span>
+                {t.contact.email}: Brightbridgehubs@gmail.com
+              </span>
             </a>
 
-            {/* PHONE */}
+            {/* Phone */}
             <a
               href="tel:+60127278076"
               className="flex items-center gap-3 hover:text-[#4B2D8F] transition"
             >
-              📞 <span>Phone: +60 12-727 8076</span>
+              📞
+              <span>
+                {t.contact.phone}: +60 12-727 8076
+              </span>
             </a>
 
-            {/* WHATSAPP */}
+            {/* WhatsApp */}
             <a
               href={whatsappLink}
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-3 hover:text-[#4B2D8F] transition"
             >
-              💬 <span>WhatsApp: Chat with us</span>
+              💬
+              <span>{t.contact.whatsapp}</span>
             </a>
 
-            {/* FACEBOOK */}
+            {/* Facebook */}
             <a
               href={facebookLink}
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-3 hover:text-[#1877F2] transition"
             >
-              📘 <span>Facebook: Visit our page</span>
+              📘
+              <span>{t.contact.facebook}</span>
             </a>
+
           </div>
+
         </div>
 
-        {/* RIGHT: FORM */}
+        {/* RIGHT */}
         <form
           onSubmit={handleSubmit}
           className="bg-[#FAF8FF] p-10 rounded-3xl shadow-lg space-y-5"
@@ -109,7 +125,7 @@ ${form.message}
           <input
             type="text"
             name="name"
-            placeholder="Your Name"
+            placeholder={t.contact.name}
             value={form.name}
             onChange={handleChange}
             className="w-full p-4 rounded-xl border focus:outline-none focus:ring-2 focus:ring-[#4B2D8F]"
@@ -119,30 +135,40 @@ ${form.message}
           <input
             type="email"
             name="email"
-            placeholder="Your Email"
+            placeholder={t.contact.emailPlaceholder}
             value={form.email}
             onChange={handleChange}
             className="w-full p-4 rounded-xl border focus:outline-none focus:ring-2 focus:ring-[#4B2D8F]"
             required
           />
 
-          {/* INTEREST */}
           <select
             name="interest"
             value={form.interest}
             onChange={handleChange}
             className="w-full p-4 rounded-xl border focus:outline-none focus:ring-2 focus:ring-[#4B2D8F]"
           >
-            <option>Volunteering</option>
-            <option>Donating</option>
-            <option>Learn more about events</option>
-            <option>Others</option>
+            <option value="Volunteering">
+              {t.contact.volunteer}
+            </option>
+
+            <option value="Donating">
+              {t.contact.donate}
+            </option>
+
+            <option value="Learn more about events">
+              {t.contact.events}
+            </option>
+
+            <option value="Others">
+              {t.contact.others}
+            </option>
+
           </select>
 
-          {/* MESSAGE */}
           <textarea
             name="message"
-            placeholder="Your Message"
+            placeholder={t.contact.message}
             value={form.message}
             onChange={handleChange}
             rows={5}
@@ -150,13 +176,13 @@ ${form.message}
             required
           />
 
-          {/* SUBMIT */}
           <button
             type="submit"
             className="w-full bg-[#4B2D8F] text-white py-4 rounded-xl hover:bg-[#3B2273] transition font-medium"
           >
-            Send Message ✉️
+            {t.contact.send}
           </button>
+
         </form>
 
       </div>

@@ -1,13 +1,22 @@
+"use client";
+
 import Image from "next/image";
+import { useLanguage } from "@/context/LanguageContext";
+import { translations } from "@/translations";
 
 export default function Story() {
+  const { language } = useLanguage();
+  const t = translations[language];
+
   return (
-    <section id="about" className="relative py-32 bg-white overflow-hidden">
-
+    <section
+      id="about"
+      className="relative py-32 bg-white overflow-hidden"
+    >
       {/* Decorative Background */}
-      <div className="absolute top-24 right-0 h-72 w-72 rounded-full bg-[#4B2D8F]/5 blur-[120px]"></div>
+      <div className="absolute top-24 right-0 h-72 w-72 rounded-full bg-[#4B2D8F]/5 blur-[120px]" />
 
-      <div className="absolute bottom-0 left-0 h-64 w-64 rounded-full bg-[#7C4DFF]/5 blur-[120px]"></div>
+      <div className="absolute bottom-0 left-0 h-64 w-64 rounded-full bg-[#7C4DFF]/5 blur-[120px]" />
 
       <div className="max-w-7xl mx-auto px-6">
 
@@ -18,62 +27,40 @@ export default function Story() {
           <div>
 
             <p className="uppercase tracking-[0.3em] text-[#4B2D8F] font-medium">
-              About Amazing Minds
+              {t.story.label}
             </p>
 
             <h2 className="mt-4 text-5xl md:text-6xl font-semibold text-gray-900">
-              Our Story
+              {t.story.title}
             </h2>
 
             <div className="mt-8 space-y-6 text-lg leading-9 text-gray-600">
 
-              <p>
-                <span className="font-semibold text-[#4B2D8F]">
-                  Amazing Minds
-                </span>{" "}
-                was founded in July 2022 by Sabrina, a mentor for children with special needs and a 2023 Encyclopedia Britannica honoree. Her vision is to establish a training center that equips children with practical skills, enabling self-reliance and easing family burdens.
-              </p>
+              <p>{t.story.p1}</p>
 
-              <p>
-                Inspired by the UniTem Ai project, Sabrina launched painting classes, expanding by June 2024 to include sign language workshops taught by deaf students. These workshops foster public communication while providing educators with income and dignity.
-              </p>
+              <p>{t.story.p2}</p>
 
-              <p>
-                Sabrina plans to broaden training to include diverse skills, helping children find meaningful employment. She also champions shifting perceptions from "disabled" to "differently-abled" through education and advocacy. Her guiding belief: "We are not disabled, we are different-able."
-              </p>
+              <p>{t.story.p3}</p>
 
             </div>
 
           </div>
 
           {/* RIGHT IMAGE */}
-
           <div className="relative">
 
-            {/* Purple Glow */}
-            <div className="absolute inset-0 rounded-[40px] bg-[#4B2D8F]/10 blur-3xl scale-105"></div>
+            <div className="absolute inset-0 rounded-[40px] bg-[#4B2D8F]/10 blur-3xl scale-105" />
 
-            {/* Paint Blob */}
-            <div className="absolute -top-8 -right-8 h-40 w-40 bg-[#F6C453]/20 rounded-full blur-3xl"></div>
+            <div className="absolute -top-8 -right-8 h-40 w-40 bg-[#F6C453]/20 rounded-full blur-3xl" />
 
-            <div className="absolute -bottom-10 -left-10 h-52 w-52 bg-[#57C7FF]/15 rounded-full blur-3xl"></div>
+            <div className="absolute -bottom-10 -left-10 h-52 w-52 bg-[#57C7FF]/15 rounded-full blur-3xl" />
 
             <Image
               src="/story/participants.jpg"
               alt="Amazing Minds Participants"
               width={650}
               height={700}
-              className="
-                relative
-                rounded-[36px]
-                shadow-2xl
-                object-cover
-                h-[560px]
-                w-full
-                transition-all
-                duration-700
-                hover:scale-[1.02]
-              "
+              className="relative rounded-[36px] shadow-2xl object-cover h-[560px] w-full transition-all duration-700 hover:scale-[1.02]"
             />
 
           </div>
@@ -91,12 +78,11 @@ export default function Story() {
             <div className="text-5xl">👁️</div>
 
             <h3 className="mt-5 text-3xl font-semibold text-[#4B2D8F]">
-              Our Vision
+              {t.story.visionTitle}
             </h3>
 
             <p className="mt-5 text-gray-600 leading-8">
-              A world where every special individual is recognised for
-              their talents and meaningful contributions to society.
+              {t.story.vision}
             </p>
 
           </div>
@@ -108,16 +94,16 @@ export default function Story() {
             <div className="text-5xl">🎯</div>
 
             <h3 className="mt-5 text-3xl font-semibold text-[#4B2D8F]">
-              Our Mission
+              {t.story.missionTitle}
             </h3>
 
             <ul className="mt-5 space-y-4 text-gray-600 leading-8">
 
-              <li>✓ Discover and nurture talents in individuals with special needs</li>
+              <li>✓ {t.story.mission1}</li>
 
-              <li>✓ Build confidence through creative and social engagement</li>
+              <li>✓ {t.story.mission2}</li>
 
-              <li>✓ Promote an inclusive community that celebrates diversity</li>
+              <li>✓ {t.story.mission3}</li>
 
             </ul>
 
@@ -126,7 +112,6 @@ export default function Story() {
         </div>
 
       </div>
-
     </section>
   );
 }

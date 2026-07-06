@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const artists = [
   {
-    name: "John",
+    name: "John Hananiah Ravi",
     talent: "Abstract Painting",
     supportneeds: "ADHD",
     image: "/artists/john.jpg",
@@ -10,7 +10,7 @@ const artists = [
       "John loves exploring colours and abstract shapes. Through painting, he expresses emotions that words cannot describe.",
   },
   {
-    name: "Charlene",
+    name: "Charlene Sng",
     talent: "Music & Singing",
     supportneeds: "Autism Spectrum Disorder",
     image: "/artists/charlene.jpg",
@@ -18,7 +18,7 @@ const artists = [
       "Charlene enjoys expressing herself through music and performing. Her passion brings happiness to everyone around her.",
   },
   {
-    name: "Ahmad",
+    name: "Wan Ahmad Ziyad Danish",
     talent: "Watercolour Art",
     supportneeds: "Down Syndrome",
     image: "/artists/ahmad.jpg",
@@ -26,7 +26,7 @@ const artists = [
       "Ahmad enjoys painting landscapes and nature. His colourful artwork reflects positivity and imagination.",
   },
   {
-    name: "Eva",
+    name: "Eva Tan Yu Xin",
     talent: "Craft & Illustration",
     supportneeds: "ADHD",
     image: "/artists/eva.jpg",
@@ -34,7 +34,7 @@ const artists = [
       "Eva loves creating handmade crafts and illustrations that reflect her joyful personality.",
   },
   {
-    name: "Xin Yong",
+    name: "Choi Xin Yong",
     talent: "Acrylic Painting",
     supportneeds: "Autism Spectrum Disorder",
     image: "/artists/xinyong.jpg",
@@ -42,7 +42,7 @@ const artists = [
       "Xin Yong enjoys experimenting with bold colours and textures, creating expressive artwork inspired by everyday life.",
   },
   {
-    name: "Xin Ling",
+    name: "Hoh Xin Ling",
     talent: "Mixed Media Art",
     supportneeds: "ADHD",
     image: "/artists/xinling.jpg",
@@ -50,7 +50,7 @@ const artists = [
       "Xin Ling explores expressive mixed media techniques, turning emotions into bold visual stories.",
   },
 {
-    name: "Jayden",
+    name: "Jayden Lee Geng Hin",
     talent: "Acrylic Painting",
     supportneeds: "Autism Spectrum Disorder",
     image: "/artists/jayden.jpg",
@@ -58,7 +58,7 @@ const artists = [
       "Jayden enjoys experimenting with bold colours and textures, creating expressive artwork inspired by everyday life.",
   },
   {
-    name: "Jing Hao",
+    name: "Lim Jing Hao",
     talent: "Mixed Media Art",
     supportneeds: "ADHD",
     image: "/artists/jinghao.jpg",
@@ -66,7 +66,7 @@ const artists = [
       "Jing Hao explores expressive mixed media techniques, turning emotions into bold visual stories.",
   },
   {
-    name: "Kai Zhi",
+    name: "Liang Kai Zhi",
     talent: "Acrylic Painting",
     supportneeds: "Autism Spectrum Disorder",
     image: "/artists/kaizhi.jpg",
@@ -74,7 +74,7 @@ const artists = [
       "Kai Zhi enjoys experimenting with bold colours and textures, creating expressive artwork inspired by everyday life.",
   },
   {
-    name: "Keith",
+    name: "Chua Pin Jie Keith",
     talent: "Mixed Media Art",
     supportneeds: "ADHD",
     image: "/artists/keith.jpg",
@@ -82,7 +82,7 @@ const artists = [
       "Keith explores expressive mixed media techniques, turning emotions into bold visual stories.",
   },
   {
-    name: "Mei Yan",
+    name: "Fong Mei Yan",
     talent: "Acrylic Painting",
     supportneeds: "Autism Spectrum Disorder",
     image: "/artists/meiyan.jpg",
@@ -90,7 +90,7 @@ const artists = [
       "Mei Yan enjoys experimenting with bold colours and textures, creating expressive artwork inspired by everyday life.",
   },
   {
-    name: "Wing Yan",
+    name: "Fong Wing Yan",
     talent: "Mixed Media Art",
     supportneeds: "ADHD",
     image: "/artists/wingyan.jpg",
@@ -98,7 +98,7 @@ const artists = [
       "Wing Yan explores expressive mixed media techniques, turning emotions into bold visual stories.",
   },
   {
-    name: "Yong Earng",
+    name: "Ngiaw Yong Earng",
     talent: "Acrylic Painting",
     supportneeds: "Autism Spectrum Disorder",
     image: "/artists/yongearng.jpg",
@@ -106,7 +106,7 @@ const artists = [
       "Yong Earng enjoys experimenting with bold colours and textures, creating expressive artwork inspired by everyday life.",
   },
   {
-    name: "Zi Xiang",
+    name: "Sin Zi Xiang",
     talent: "Mixed Media Art",
     supportneeds: "ADHD",
     image: "/artists/zixiang.jpg",
@@ -114,7 +114,7 @@ const artists = [
       "Zi Xiang explores expressive mixed media techniques, turning emotions into bold visual stories.",
   },
   {
-    name: "Yan Xin",
+    name: "Low Yan Xin",
     talent: "Acrylic Painting",
     supportneeds: "Autism Spectrum Disorder",
     image: "/artists/yanxin.jpg",
@@ -122,7 +122,7 @@ const artists = [
       "Yan Xin enjoys experimenting with bold colours and textures, creating expressive artwork inspired by everyday life.",
   },
   {
-    name: "Zi Xin",
+    name: "Lam Zi Xin",
     talent: "Mixed Media Art",
     supportneeds: "ADHD",
     image: "/artists/zixin.jpg",

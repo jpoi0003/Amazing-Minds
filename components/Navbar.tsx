@@ -4,22 +4,28 @@ import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 
-const links = [
-  { name: "Home", href: "#home" },
-  { name: "About", href: "#about" },
-  { name: "Journey", href: "#past-events" },
-  { name: "Artists", href: "#artists" },
-  { name: "Artwork", href: "#artwork" },
-  { name: "Community Voices", href: "#voices" },
-  { name: "Contact", href: "#contact" },
+import { useLanguage } from "@/context/LanguageContext";
+import { translations } from "@/translations";
+
+const sectionLinks = [
+  { key: "home", href: "#home" },
+  { key: "about", href: "#about" },
+  { key: "journey", href: "#past-events" },
+  { key: "artists", href: "#artists" },
+  { key: "artwork", href: "#artwork" },
+  { key: "voices", href: "#voices" },
+  { key: "contact", href: "#contact" },
 ];
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
-  // WhatsApp message (customised)
+  const { language, setLanguage } = useLanguage();
+
+  const t = translations[language];
+
   const whatsappLink =
-    "https://wa.me/+60127278076?text=" +
+    "https://wa.me/60127278076?text=" +
     encodeURIComponent(
       "Hello! I’m interested in volunteering with Amazing Minds. Could you share more details with me?"
     );
@@ -41,32 +47,70 @@ export default function Navbar() {
           />
         </Link>
 
-        {/* Desktop Menu */}
-        <div className="hidden lg:flex items-center gap-8">
+        {/* Desktop Navigation */}
+        <div className="hidden lg:flex items-center gap-7">
 
-          {links.map((link) => (
+          {sectionLinks.map((link) => (
             <a
-              key={link.name}
+              key={link.key}
               href={link.href}
-              className="text-gray-700 hover:text-[#4B2D8F] transition font-medium"
+              className="font-medium text-gray-700 hover:text-[#4B2D8F] transition"
             >
-              {link.name}
+              {t.navbar[link.key as keyof typeof t.navbar]}
             </a>
           ))}
 
-          {/* WhatsApp Volunteer Button */}
+          {/* Language Switcher */}
+          <div className="flex items-center rounded-full border border-gray-200 overflow-hidden ml-2">
+
+            <button
+              onClick={() => setLanguage("en")}
+              className={`px-3 py-2 text-sm transition ${
+                language === "en"
+                  ? "bg-[#4B2D8F] text-white"
+                  : "bg-white hover:bg-gray-100"
+              }`}
+            >
+              EN
+            </button>
+
+            <button
+              onClick={() => setLanguage("zh")}
+              className={`px-3 py-2 text-sm transition ${
+                language === "zh"
+                  ? "bg-[#4B2D8F] text-white"
+                  : "bg-white hover:bg-gray-100"
+              }`}
+            >
+              中文
+            </button>
+
+            <button
+              onClick={() => setLanguage("ms")}
+              className={`px-3 py-2 text-sm transition ${
+                language === "ms"
+                  ? "bg-[#4B2D8F] text-white"
+                  : "bg-white hover:bg-gray-100"
+              }`}
+            >
+              BM
+            </button>
+
+          </div>
+
+          {/* Volunteer Button */}
           <a
             href={whatsappLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="ml-3 rounded-full bg-[#4B2D8F] px-6 py-3 text-white font-medium hover:bg-[#38216B] transition"
+            className="ml-2 rounded-full bg-[#4B2D8F] px-6 py-3 text-white font-medium hover:bg-[#38216B] transition"
           >
-            Volunteer
+            {t.navbar.volunteer}
           </a>
 
         </div>
 
-        {/* Mobile Button */}
+        {/* Mobile Menu Button */}
         <button
           className="lg:hidden text-3xl text-[#4B2D8F]"
           onClick={() => setMenuOpen(!menuOpen)}
@@ -80,26 +124,64 @@ export default function Navbar() {
       {menuOpen && (
         <div className="lg:hidden bg-white border-t shadow-lg">
 
-          {links.map((link) => (
+          {sectionLinks.map((link) => (
             <a
-              key={link.name}
+              key={link.key}
               href={link.href}
               onClick={() => setMenuOpen(false)}
               className="block px-6 py-4 border-b hover:bg-gray-50"
             >
-              {link.name}
+              {t.navbar[link.key as keyof typeof t.navbar]}
             </a>
           ))}
 
-          {/* Mobile WhatsApp Button */}
+          {/* Mobile Language Switcher */}
+          <div className="flex justify-center gap-3 py-5">
+
+            <button
+              onClick={() => setLanguage("en")}
+              className={`rounded-full px-4 py-2 ${
+                language === "en"
+                  ? "bg-[#4B2D8F] text-white"
+                  : "bg-gray-100"
+              }`}
+            >
+              EN
+            </button>
+
+            <button
+              onClick={() => setLanguage("zh")}
+              className={`rounded-full px-4 py-2 ${
+                language === "zh"
+                  ? "bg-[#4B2D8F] text-white"
+                  : "bg-gray-100"
+              }`}
+            >
+              中文
+            </button>
+
+            <button
+              onClick={() => setLanguage("ms")}
+              className={`rounded-full px-4 py-2 ${
+                language === "ms"
+                  ? "bg-[#4B2D8F] text-white"
+                  : "bg-gray-100"
+              }`}
+            >
+              BM
+            </button>
+
+          </div>
+
+          {/* Mobile Volunteer Button */}
           <a
             href={whatsappLink}
             target="_blank"
             rel="noopener noreferrer"
             onClick={() => setMenuOpen(false)}
-            className="block m-5 text-center bg-[#4B2D8F] text-white py-3 rounded-full"
+            className="block mx-5 mb-5 text-center bg-[#4B2D8F] text-white py-3 rounded-full"
           >
-            Volunteer
+            {t.navbar.volunteer}
           </a>
 
         </div>

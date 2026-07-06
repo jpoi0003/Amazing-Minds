@@ -7,6 +7,9 @@ import {
 
 import "./globals.css";
 
+// ✅ Import Language Provider
+import { LanguageProvider } from "@/context/LanguageContext";
+
 const poppins = Poppins({
   subsets: ["latin"],
   weight: ["300", "400", "500", "600", "700"],
@@ -38,8 +41,6 @@ export const metadata: Metadata = {
     "art therapy",
     "non-profit Malaysia",
   ],
-
-  // 🔍 GOOGLE SEARCH CONSOLE VERIFICATION
 
   openGraph: {
     title: "Amazing Minds",
@@ -76,7 +77,12 @@ export default function RootLayout({
       lang="en"
       className={`${poppins.variable} ${playfair.variable} ${cormorant.variable}`}
     >
-      <body>{children}</body>
+      <body>
+        {/* ✅ Language Provider */}
+        <LanguageProvider>
+          {children}
+        </LanguageProvider>
+      </body>
     </html>
   );
 }

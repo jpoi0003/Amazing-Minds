@@ -1,27 +1,15 @@
+"use client";
+
+import { translations } from "@/translations";
+import { useLanguage } from "@/context/LanguageContext";
+
 export default function Programs() {
-  const values = [
-    {
-      icon: "🎨",
-      title: "Discover Talents",
-      description:
-        "Every individual has unique gifts waiting to be discovered. We create opportunities for participants to explore their creativity, abilities and passions.",
-    },
-    {
-      icon: "🤝",
-      title: "Build Confidence",
-      description:
-        "Through art, sports and meaningful experiences, we nurture confidence, independence and a sense of belonging in every participant.",
-    },
-    {
-      icon: "🌏",
-      title: "Create Opportunities",
-      description:
-        "We promote inclusion by creating platforms where individuals with special needs are recognised, celebrated and empowered within the community.",
-    },
-  ];
+  const { language } = useLanguage();
+  const t = translations[language];
 
   return (
-    <section className="relative py-20 md:py-32 overflow-hidden bg-cover bg-center"
+    <section
+      className="relative py-20 md:py-32 overflow-hidden bg-cover bg-center"
       style={{
         backgroundImage:
           "linear-gradient(rgba(18,12,35,0.78), rgba(10,10,20,0.78)), url('/core-values/background.jpg')",
@@ -40,16 +28,15 @@ export default function Programs() {
         <div className="text-center">
 
           <p className="uppercase tracking-[0.35em] text-[#D8C8FF] font-semibold">
-            Our Values
+            {t.programs.label}
           </p>
 
           <h2 className="mt-4 text-5xl md:text-6xl font-semibold text-white">
-            Our Core Values
+            {t.programs.title}
           </h2>
 
           <p className="mt-6 text-lg text-gray-200 max-w-3xl mx-auto leading-8">
-            Everything we do is guided by values that inspire inclusion,
-            celebrate individuality and empower every Amazing Mind to shine.
+            {t.programs.description}
           </p>
 
         </div>
@@ -57,7 +44,7 @@ export default function Programs() {
         {/* Cards */}
         <div className="grid md:grid-cols-3 gap-10 mt-20">
 
-          {values.map((value) => (
+          {t.programs.cards.map((value) => (
 
             <div
               key={value.title}

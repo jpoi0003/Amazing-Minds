@@ -3,35 +3,42 @@
 import { AnimatePresence, motion } from "framer-motion";
 import { useEffect, useState } from "react";
 
+import { translations } from "@/translations";
+import { useLanguage } from "@/context/LanguageContext";
+
 const testimonials = [
   {
     quote:
-      "Amazing Minds helped my child discover confidence through art. For the first time, he proudly shared his own creations with our family and friends.",
-    author: "Parent of Participant",
-    location: "Kuala Lumpur",
+      "Thank you, Amazing Minds teachers, for your endless patience and encouragement. My child has discovered talents I never knew he had, his artwork truly amazes me every single day.",
+    author: "Jing Hao's Mum",
+    location: "Amazing Minds",
   },
   {
     quote:
-      "Watching my daughter smile while painting reminded us that every child has unique strengths waiting to be discovered.",
-    author: "Parent of Participant",
-    location: "Selangor",
+      "So glad I found Amazing Minds! The teachers are incredibly calm and skilled at handling every child with patience and warmth. My child loves coming here, and I love seeing the progress.",
+    author: "John's Mum",
+    location: "Amazing Minds",
   },
   {
     quote:
-      "Volunteering at Amazing Minds has shown me how creativity can connect people from all walks of life.",
-    author: "Volunteer",
-    location: "Petaling Jaya",
+      "Progress dari Class 1 kepada Class 2 banyak improvement, my child lebih focus dan lebih enjoy pergi ke kelas. Banyak terima kasih!",
+    author: "Ziyad's Parents",
+    location: "Amazing Minds",
   },
   {
     quote:
-      "As MUPhaS Public Health Campaign organizer, I was thrilled to bring Amazing Minds to Monash University Malaysia, their stunning artwork not only captivated our audience but also drew participation to our campaign. ",
+      "As MUPhaS PHC 2026 organizer, I was thrilled to bring Amazing Minds to Monash University Malaysia. Their stunning artwork captivated our audience and also drew participation to our campaign.",
     author: "Juliana Poi",
-    location: "MUPhaS PHC 2026",
+    location: "MUPhaS Public Health Campaign 2026",
   },
 ];
 
 export default function Voices() {
   const [current, setCurrent] = useState(0);
+
+  // ✅ Use global language
+  const { language } = useLanguage();
+  const t = translations[language];
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -41,7 +48,6 @@ export default function Voices() {
     return () => clearInterval(interval);
   }, []);
 
-  // WhatsApp links
   const whatsappVolunteer =
     "https://wa.me/60127278076?text=" +
     encodeURIComponent(
@@ -72,17 +78,15 @@ export default function Voices() {
         <div className="text-center text-white">
 
           <p className="uppercase tracking-[0.3em] text-[#F6C453] font-medium">
-            Parents & Community Voices
+            {t.voices.eyebrow}
           </p>
 
           <h2 className="mt-5 text-5xl md:text-6xl font-semibold">
-            Every Story Matters
+            {t.voices.title}
           </h2>
 
           <p className="mt-7 text-lg text-gray-200 max-w-3xl mx-auto leading-8">
-            Behind every artwork is a story of courage, growth and endless
-            possibilities. Hear from the families and community members who
-            have walked this journey with us.
+            {t.voices.description}
           </p>
 
         </div>
@@ -108,34 +112,59 @@ export default function Voices() {
               text-white
             "
           >
-            <div className="text-7xl text-[#F6C453] leading-none">❝</div>
+            <div className="text-7xl text-[#F6C453] leading-none">
+              ❝
+            </div>
 
             <AnimatePresence mode="wait">
+
               <motion.div
                 key={current}
-                initial={{ opacity: 0, y: 20, filter: "blur(6px)" }}
-                animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
-                exit={{ opacity: 0, y: -20, filter: "blur(6px)" }}
-                transition={{ duration: 0.6 }}
+                initial={{
+                  opacity: 0,
+                  y: 20,
+                  filter: "blur(6px)",
+                }}
+                animate={{
+                  opacity: 1,
+                  y: 0,
+                  filter: "blur(0px)",
+                }}
+                exit={{
+                  opacity: 0,
+                  y: -20,
+                  filter: "blur(6px)",
+                }}
+                transition={{
+                  duration: 0.6,
+                }}
               >
+
                 <p className="mt-8 text-xl leading-9">
                   {testimonials[current].quote}
                 </p>
 
                 <div className="mt-12">
+
                   <h4 className="text-xl font-semibold">
                     {testimonials[current].author}
                   </h4>
+
                   <p className="text-white/70">
                     {testimonials[current].location}
                   </p>
+
                 </div>
+
               </motion.div>
+
             </AnimatePresence>
 
-            {/* Dots */}
+            {/* Navigation Dots */}
             <div className="flex gap-3 mt-10">
+
               {testimonials.map((_, index) => (
+
                 <button
                   key={index}
                   onClick={() => setCurrent(index)}
@@ -145,8 +174,11 @@ export default function Voices() {
                       : "w-3 bg-white/40 hover:bg-white/70"
                   }`}
                 />
+
               ))}
+
             </div>
+
           </motion.div>
 
           {/* CTA Card */}
@@ -162,27 +194,25 @@ export default function Voices() {
               justify-between
             "
           >
+
             <div>
+
               <p className="uppercase tracking-[0.3em] text-[#F6C453]">
-                Join Amazing Minds
+                {t.voices.join}
               </p>
 
               <h3 className="mt-5 text-4xl font-semibold leading-tight">
-                Be Part of Something Meaningful
+                {t.voices.ctaTitle}
               </h3>
 
               <p className="mt-8 text-lg leading-8 text-purple-100">
-                Whether you volunteer, collaborate or support our artists,
-                every contribution helps create opportunities for individuals
-                with special needs to discover their talents and inspire our
-                community.
+                {t.voices.ctaDescription}
               </p>
+
             </div>
 
-            {/* Buttons */}
             <div className="mt-12 flex flex-wrap gap-5">
 
-              {/* Volunteer */}
               <a
                 href={whatsappVolunteer}
                 target="_blank"
@@ -200,10 +230,9 @@ export default function Voices() {
                   inline-block
                 "
               >
-                Become a Volunteer
+                {t.voices.volunteer}
               </a>
 
-              {/* Partner */}
               <a
                 href={whatsappPartner}
                 target="_blank"
@@ -221,14 +250,17 @@ export default function Voices() {
                   inline-block
                 "
               >
-                Partner With Us
+                {t.voices.partner}
               </a>
 
             </div>
+
           </div>
 
         </div>
+
       </div>
+
     </section>
   );
 }
