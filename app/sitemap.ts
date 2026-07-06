@@ -1,9 +1,11 @@
-import { MetadataRoute } from "next";
+import type { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
+  const baseUrl = "https://amazing-minds.vercel.app";
+
   return [
     {
-      url: "https://amazing-minds.vercel.app",
+      url: baseUrl,
       lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 1,
