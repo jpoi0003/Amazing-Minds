@@ -4,9 +4,7 @@ import {
   Playfair_Display,
   Cormorant_Garamond,
 } from "next/font/google";
-
 import "./globals.css";
-
 // ✅ Import Language Provider
 import { LanguageProvider } from "@/context/LanguageContext";
 
@@ -15,12 +13,10 @@ const poppins = Poppins({
   weight: ["300", "400", "500", "600", "700"],
   variable: "--font-body",
 });
-
 const playfair = Playfair_Display({
   subsets: ["latin"],
   variable: "--font-logo",
 });
-
 const cormorant = Cormorant_Garamond({
   subsets: ["latin"],
   weight: ["300", "400", "500", "600", "700"],
@@ -32,7 +28,6 @@ export const metadata: Metadata = {
   title: "Amazing Minds - Inclusive Community Art Programme",
   description:
     "Amazing Minds is a non-profit initiative in Malaysia supporting individuals with special needs through art, creativity, sports and community engagement.",
-
   keywords: [
     "special needs Malaysia",
     "OKU Malaysia",
@@ -41,7 +36,6 @@ export const metadata: Metadata = {
     "art therapy",
     "non-profit Malaysia",
   ],
-
   openGraph: {
     title: "Amazing Minds",
     description:
@@ -57,13 +51,16 @@ export const metadata: Metadata = {
     ],
     type: "website",
   },
-
   twitter: {
     card: "summary_large_image",
     title: "Amazing Minds",
     description:
       "Inclusive community art programme empowering special needs individuals.",
     images: ["/hero/hero.jpg"],
+  },
+  // ✅ Google Search Console verification
+  verification: {
+    google: "5P42zfceQdjcWiPZdzfzsfj1WYRBXcPzAOskZE4nMVE",
   },
 };
 
@@ -79,9 +76,7 @@ export default function RootLayout({
     >
       <body>
         {/* ✅ Language Provider */}
-        <LanguageProvider>
-          {children}
-        </LanguageProvider>
+        <LanguageProvider>{children}</LanguageProvider>
       </body>
     </html>
   );
