@@ -101,6 +101,21 @@ journey: {
     },
   ],
 },
+gallery: {
+  eyebrow: "Our Collection",
+  title: "Artwork Gallery",
+  description:
+    "Discover handcrafted creations that celebrate creativity, individuality and the incredible talents of our Amazing Minds artists.",
+
+  createdBy: "Created by",
+
+  ctaTitle: "Explore Our Complete Collection",
+
+  ctaDescription:
+    "Browse our complete catalogue featuring handmade bags, paintings, rock art, coasters and many more unique creations by our Amazing Minds artists.",
+
+  browse: "Browse Full Collection",
+},
 voices: {
   eyebrow: "Parents & Community Voices",
   title: "Every Story Matters",

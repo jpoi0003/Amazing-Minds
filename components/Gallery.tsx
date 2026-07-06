@@ -1,4 +1,8 @@
+"use client";
+
 import Image from "next/image";
+import { useLanguage } from "@/context/LanguageContext";
+import { translations } from "@/translations";
 
 const artworks = [
   {
@@ -44,24 +48,28 @@ const artworks = [
 ];
 
 export default function Gallery() {
+  const { language } = useLanguage();
+  const t = translations[language];
+
   return (
     <section id="artwork" className="py-20 md:py-32 bg-[#FAF8FF]">
       <div className="max-w-7xl mx-auto px-6">
 
         {/* Heading */}
         <div className="text-center">
+
           <p className="uppercase tracking-[0.3em] text-[#4B2D8F] font-medium">
-            Our Collection
+            {t.gallery.eyebrow}
           </p>
 
           <h2 className="mt-4 text-5xl font-semibold text-gray-900">
-            Artwork Gallery
+            {t.gallery.title}
           </h2>
 
           <p className="mt-6 text-lg text-gray-600 max-w-3xl mx-auto leading-8">
-            Discover handcrafted creations that celebrate creativity,
-            individuality and the incredible talents of our Amazing Minds artists.
+            {t.gallery.description}
           </p>
+
         </div>
 
         {/* Gallery */}
@@ -71,7 +79,17 @@ export default function Gallery() {
 
             <div
               key={index}
-              className="group bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-2xl hover:-translate-y-2 transition-all duration-500"
+              className="
+                group
+                bg-white
+                rounded-3xl
+                overflow-hidden
+                shadow-md
+                hover:shadow-2xl
+                hover:-translate-y-2
+                transition-all
+                duration-500
+              "
             >
 
               {/* Image */}
@@ -95,7 +113,7 @@ export default function Gallery() {
                 </span>
 
                 <p className="mt-4 text-gray-500">
-                  Created by {art.artist}
+                  {t.gallery.createdBy} {art.artist}
                 </p>
 
               </div>
@@ -112,22 +130,37 @@ export default function Gallery() {
           <div className="rounded-[40px] bg-white p-12 shadow-xl text-center">
 
             <h3 className="text-3xl font-semibold text-[#4B2D8F]">
-              Explore Our Complete Collection
+              {t.gallery.ctaTitle}
             </h3>
 
             <p className="mt-5 max-w-2xl mx-auto text-gray-600 leading-8">
-              Browse our complete catalogue featuring handmade bags,
-              paintings, rock art, coasters and many more unique creations
-              by our Amazing Minds artists.
+              {t.gallery.ctaDescription}
             </p>
 
             <a
               href="https://drive.google.com/drive/folders/16mpvz8YYcJ2YDVUW2A_8X2dWV6ZwQcL8?usp=share_link"
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-10 inline-flex items-center gap-3 rounded-full bg-[#4B2D8F] px-8 py-4 font-medium text-white shadow-lg transition duration-300 hover:-translate-y-1 hover:bg-[#38216b] hover:shadow-2xl"
+              className="
+                mt-10
+                inline-flex
+                items-center
+                gap-3
+                rounded-full
+                bg-[#4B2D8F]
+                px-8
+                py-4
+                font-medium
+                text-white
+                shadow-lg
+                transition
+                duration-300
+                hover:-translate-y-1
+                hover:bg-[#38216b]
+                hover:shadow-2xl
+              "
             >
-              Browse Full Collection
+              {t.gallery.browse}
               <span className="text-xl">↗</span>
             </a>
 

@@ -101,6 +101,21 @@ journey: {
     },
   ],
 },
+gallery: {
+  eyebrow: "我们的作品",
+  title: "艺术作品展示",
+  description:
+    "探索充满创意与个性的手工作品，欣赏 Amazing Minds 艺术家的无限才华。",
+
+  createdBy: "创作者：",
+
+  ctaTitle: "探索完整作品集",
+
+  ctaDescription:
+    "浏览我们的完整作品目录，包括手工包、绘画、石头彩绘、杯垫及更多由 Amazing Minds 艺术家创作的作品。",
+
+  browse: "浏览完整作品集",
+},
 voices: {
   eyebrow: "家长与社区分享",
   title: "每一个故事都值得被听见",

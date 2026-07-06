@@ -101,6 +101,21 @@ journey: {
     },
   ],
 },
+gallery: {
+  eyebrow: "Koleksi Kami",
+  title: "Galeri Karya Seni",
+  description:
+    "Temui hasil karya buatan tangan yang meraikan kreativiti, keunikan dan bakat luar biasa para artis Amazing Minds.",
+
+  createdBy: "Dihasilkan oleh",
+
+  ctaTitle: "Terokai Koleksi Lengkap Kami",
+
+  ctaDescription:
+    "Lihat katalog penuh kami yang menampilkan beg buatan tangan, lukisan, seni batu, alas cawan dan pelbagai lagi hasil kreatif daripada artis Amazing Minds.",
+
+  browse: "Lihat Koleksi Lengkap",
+},
 voices: {
   eyebrow: "Suara Ibu Bapa & Komuniti",
   title: "Setiap Kisah Bermakna",
