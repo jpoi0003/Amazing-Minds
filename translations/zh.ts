@@ -116,6 +116,13 @@ gallery: {
 
   browse: "浏览完整作品集",
 },
+artists: {
+  eyebrow: "认识我们的艺术家",
+  title: "艺术家简介",
+  description:
+    "每位艺术家都有属于自己的故事、才华与创作旅程，他们共同展现了 Amazing Minds 丰富多彩的精神。",
+  supportNeeds: "特殊支持需要",
+},
 voices: {
   eyebrow: "家长与社区分享",
   title: "每一个故事都值得被听见",

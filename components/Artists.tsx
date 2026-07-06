@@ -1,4 +1,8 @@
+"use client";
+
 import Image from "next/image";
+import { useLanguage } from "@/context/LanguageContext";
+import { translations } from "@/translations";
 
 const artists = [
   {
@@ -49,7 +53,7 @@ const artists = [
     description:
       "Xin Ling explores expressive mixed media techniques, turning emotions into bold visual stories.",
   },
-{
+  {
     name: "Jayden Lee Geng Hin",
     talent: "Acrylic Painting",
     supportneeds: "Autism Spectrum Disorder",
@@ -132,31 +136,31 @@ const artists = [
 ];
 
 export default function Artists() {
+  const { language } = useLanguage();
+  const t = translations[language];
+
   return (
     <section id="artists" className="py-24 md:py-32 bg-white">
       <div className="max-w-7xl mx-auto px-6">
 
         {/* Heading */}
-
         <div className="text-center">
 
           <p className="uppercase tracking-[0.3em] text-[#4B2D8F] font-medium">
-            Meet Our Artists
+            {t.artists.eyebrow}
           </p>
 
           <h2 className="mt-4 text-5xl font-semibold text-gray-900">
-            Artist Profiles
+            {t.artists.title}
           </h2>
 
           <p className="mt-6 text-lg text-gray-600 max-w-3xl mx-auto leading-8">
-            Every artist has a unique story, talent and creative journey.
-            Together they represent the colourful spirit of Amazing Minds.
+            {t.artists.description}
           </p>
 
         </div>
 
         {/* Artist Grid */}
-
         <div className="mt-20 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
 
           {artists.map((artist) => (
@@ -177,7 +181,6 @@ export default function Artists() {
             >
 
               {/* Image */}
-
               <div className="relative h-72 overflow-hidden">
 
                 <Image
@@ -191,7 +194,6 @@ export default function Artists() {
               </div>
 
               {/* Content */}
-
               <div className="p-6">
 
                 <h3 className="text-2xl font-semibold text-[#4B2D8F]">
@@ -203,7 +205,7 @@ export default function Artists() {
                 </span>
 
                 <p className="mt-4 text-sm font-medium text-gray-500">
-                  Support Needs
+                  {t.artists.supportNeeds}
                 </p>
 
                 <p className="text-[#4B2D8F] font-medium">

@@ -116,6 +116,13 @@ gallery: {
 
   browse: "Lihat Koleksi Lengkap",
 },
+artists: {
+  eyebrow: "Kenali Artis Kami",
+  title: "Profil Artis",
+  description:
+    "Setiap artis mempunyai kisah, bakat dan perjalanan kreatif yang tersendiri. Bersama-sama mereka melambangkan semangat Amazing Minds yang penuh warna.",
+  supportNeeds: "Keperluan Sokongan",
+},
 voices: {
   eyebrow: "Suara Ibu Bapa & Komuniti",
   title: "Setiap Kisah Bermakna",

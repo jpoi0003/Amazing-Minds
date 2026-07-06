@@ -116,6 +116,13 @@ gallery: {
 
   browse: "Browse Full Collection",
 },
+artists: {
+  eyebrow: "Meet Our Artists",
+  title: "Artist Profiles",
+  description:
+    "Every artist has a unique story, talent and creative journey. Together they represent the colourful spirit of Amazing Minds.",
+  supportNeeds: "Support Needs",
+},
 voices: {
   eyebrow: "Parents & Community Voices",
   title: "Every Story Matters",
