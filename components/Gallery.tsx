@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const artworks = [
   {
-    category: "Tote Bag",
+    category: "Tote Bag (B)",
     artist: "John",
     image: "/gallery/johntotebag.jpg",
   },
@@ -12,34 +12,34 @@ const artworks = [
     image: "/gallery/johncosmeticpouch.jpg",
   },
   {
-    category: "Tote Bag",
+    category: "Tote Bag (B)",
     artist: "Jing Hao",
     image: "/gallery/jinghaototebag.jpg",
   },
   {
-    category: "Masterpiece",
-    artist: "Eva",
-    image: "/gallery/masterpiece1.jpg",
+    category: "Cosmetic Pouch",
+    artist: "Kai Zhi",
+    image: "/gallery/kaizhicosmeticpouch.jpg",
   },
   {
-    category: "Heat Pot Coaster",
-    artist: "Xin Yong",
-    image: "/gallery/coaster1.jpg",
+    category: "Sling Bag",
+    artist: "Mei Yan",
+    image: "/gallery/meiyanslingbag.jpg",
   },
   {
-    category: "Tote Bag",
+    category: "Sling Bag",
     artist: "Xin Ling",
-    image: "/gallery/totebag2.jpg",
+    image: "/gallery/xinlingslingbag.jpg",
   },
   {
-    category: "Masterpiece",
-    artist: "John",
-    image: "/gallery/masterpiece2.jpg",
+    category: "Tote Bag (S)",
+    artist: "Kai Zhi",
+    image: "/gallery/kaizhitotebag.jpg",
   },
   {
-    category: "Rock Painting",
-    artist: "Charlene",
-    image: "/gallery/rock2.jpg",
+    category: "Tote Bag (S)",
+    artist: "Zi Xiang",
+    image: "/gallery/zixiangtotebag.jpg",
   },
 ];
 
