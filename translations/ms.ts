@@ -121,9 +121,109 @@ artists: {
   eyebrow: "Kenali Artis Kami",
   title: "Profil Artis",
   description:
-    "Setiap artis mempunyai kisah, bakat dan perjalanan kreatif yang tersendiri. Bersama-sama mereka melambangkan semangat Amazing Minds yang penuh warna.",
+    "Setiap artis mempunyai kisah, bakat dan perjalanan kreatif yang unik. Bersama-sama, mereka mewakili semangat penuh warna Amazing Minds.",
   supportNeeds: "Keperluan Sokongan",
+
+  profiles: {
+    john: {
+      talent: "Melukis, Menyanyi, Menari",
+      description:
+        "Dia seorang yang ceria dan menyukai apa yang dilakukannya ketika melukis dan mewarna. Dia mempunyai cara kreatif tersendiri dalam menggunakan warna serta gemar melukis watak kartun.",
+    },
+
+    charlene: {
+      talent:
+        "Menyanyi, Mempelajari pelbagai bahasa, Melukis, Berenang & Gendang 24 Musim",
+      description:
+        "Dia gemar menyanyi sambil melukis. Dia mempunyai minat yang mendalam dalam menghasilkan semula kartun dan objek yang ditemuinya melalui Google. Untuk meningkatkan kemahirannya, dia secara berdikari mencari tutorial 'cara melukis' di YouTube dan mengikut langkah demi langkah.",
+    },
+
+    ahmad: {
+      talent: "Melukis, Bermain Permainan & Berenang",
+      description:
+        "Dia seorang yang baik hati dan lembut, walaupun kadangkala mudah beremosi. Dia gemar bermain Minecraft di Switch dan melukis watak-watak Minecraft.",
+    },
+
+    eva: {
+      talent: "Melukis, Berenang",
+      description:
+        "Dia suka mengekspresikan kreativiti secara bebas, gemar menggunakan warna kegemarannya untuk melukis perkara yang disukai, dan benar-benar menikmati aktiviti melukis.",
+    },
+
+    xinyong: {
+      talent: "Melukis & Bola Sepak",
+      description:
+        "Dia gemar menggunakan pelbagai warna yang ceria dan menghasilkan karya seni dengan teliti, sapuan demi sapuan. Setelah siap, dia berasa sangat gembira dan bangga dengan hasil karyanya.",
+    },
+
+    xinling: {
+      talent: "Menyanyi, Menari & Melukis",
+      description:
+        "Dia gemar mengekspresikan dirinya melalui muzik, nyanyian, tarian dan lukisan.",
+    },
+
+    jayden: {
+      talent: "Ingatan yang baik, Bermain Dram & Melukis",
+      description:
+        "Dia gemar melukis dan merupakan seorang kanak-kanak yang sangat peka terhadap persekitaran. Dia mempunyai pemerhatian yang baik terhadap perincian serta ingatan yang kuat, terutamanya terhadap perkara yang diminatinya seperti kereta.",
+    },
+
+    jinghao: {
+      talent: "Melukis & Mengukir",
+      description:
+        "Jing Hao ialah seorang individu kreatif yang gemar melukis dan menghasilkan ukiran dinosaur, watak bergaya kartun serta watak asli yang diinspirasikan daripada imaginasinya.",
+    },
+
+    kaizhi: {
+      talent: "Memasak & Melukis",
+      description:
+        "Dahulu dia kurang keyakinan diri sebagai seorang pelajar yang memerlukan lebih masa untuk belajar, tetapi dia menemui keyakinan melalui aktiviti melukis. Pada masa yang sama, minatnya terhadap memasak telah membawanya kepada perkembangan yang berterusan, dan kini dia meningkatkan kemahirannya melalui kelas memasak. Dia juga telah menjadi pembantu yang hebat kepada guru-gurunya di sekolah!",
+    },
+
+    keith: {
+      talent: "Melukis & Berenang",
+      description:
+        "Dia merupakan seorang artis muda yang penuh minat dan sangat teliti, gemar mencipta watak unik serta pemandangan yang indah. Dia sangat menyayangi haiwan, terutamanya kucing, dan merupakan seorang kanak-kanak yang penyayang serta prihatin. Dia juga mempunyai gaya tersendiri dan gemar memakai jaket hoodie yang mencerminkan keperibadiannya. Untuk meningkatkan kemahirannya, dia secara berdikari mencari tutorial 'cara melukis' di YouTube dan mengikut langkah demi langkah.",
+    },
+
+    meiyan: {
+      talent: "Sukan, Melukis & Menghasilkan Kraftangan",
+      description:
+        "Dalam kehidupan seharian, dia gemar menghasilkan kraftangan seperti tanah liat, manik perler dan puzzle. Namun, perkara yang paling diminatinya ialah melukis watak anime. Di sekolah, dia sering menyertai aktiviti sukan dan aktiviti praktikal.",
+    },
+
+    wingyan: {
+      talent: "Menari, Menyanyi, Melukis & Memasak",
+      description:
+        "Dalam kehidupan seharian, dia gemar mendengar lagu sambil menghasilkan kraftangan kreatif, sama seperti kakaknya. Dia juga menikmati aktiviti puzzle, manik perler, serta membuat rantai dan gelang manik. Kini, dia mempunyai hobi baharu iaitu membuat pancake.",
+    },
+
+    yongearng: {
+      talent: "Melukis & Menari",
+      description:
+        "Yong Earng merupakan seorang gadis muda yang lembut tutur katanya dan pemalu.",
+    },
+
+    zixiang: {
+      talent: "Melukis, Bermain Permainan & Permainan Bola",
+      description:
+        "Dia sangat suka membantu dan mengambil berat terhadap orang di sekelilingnya. Dia mempunyai idea tersendiri serta gemar bermain Minecraft dan melukis watak-watak Minecraft.",
+    },
+
+    yanxin: {
+      talent: "Melukis",
+      description:
+        "Dia merupakan seorang gadis yang bercakap perlahan, pendiam, tetapi sangat gemar melukis. Dia menikmati masa lapangnya dengan melukis di atas kertas lakaran atau menggunakan iPad.",
+    }, 
+
+    zixin: {
+      talent: "Melukis, Menyanyi & Menari",
+      description:
+        "Dia gemar menyanyi, menari, melukis dan mewarnakan apa sahaja yang diminatinya.",
+    },
+  },
 },
+
 voices: {
   eyebrow: "Suara Ibu Bapa & Komuniti",
   title: "Setiap Kisah Bermakna",

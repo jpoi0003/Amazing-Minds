@@ -123,6 +123,104 @@ artists: {
   description:
     "Every artist has a unique story, talent and creative journey. Together they represent the colourful spirit of Amazing Minds.",
   supportNeeds: "Support Needs",
+  profiles: {
+  john: {
+    talent: "Drawing, Singing, Dancing",
+    description:
+      "He is happy and loves what he does while painting and drawing. He has his own creative way with colours and enjoys drawing cartoon characters.",
+  },
+
+  charlene: {
+    talent:
+      "Singing, Learning Different Languages, Drawing, Swimming & 24 Season Drum",
+    description:
+      "She enjoys singing while drawing. She has a strong passion for recreating cartoons and items she discovers on Google. To improve her skills, she independently searches for 'how to draw' tutorials on YouTube and follows them step by step.",
+  },
+
+  ahmad: {
+    talent: "Drawing, Gaming & Swimming",
+    description:
+      "He is kind-hearted and gentle, though sometimes emotional. He loves playing Minecraft on his Switch and drawing Minecraft characters.",
+  },
+
+  eva: {
+    talent: "Drawing & Swimming",
+    description:
+      "She loves expressing her creativity freely, prefers using her favourite colours to draw the things she likes, and genuinely enjoys drawing.",
+  },
+
+  xinyong: {
+    talent: "Drawing & Football",
+    description:
+      "He loves using a vibrant palette of colours, meticulously crafting his artwork stroke by stroke. Once finished, he feels an immense sense of joy and pride.",
+  },
+
+  xinling: {
+    talent: "Singing, Dancing & Drawing",
+    description:
+      "She enjoys expressing herself through music, singing, dancing and drawing.",
+  },
+
+  jayden: {
+    talent: "Excellent Memory, Drumming & Drawing",
+    description:
+      "He loves drawing and is a very observant child. He has a keen eye for detail and an excellent memory, especially for things that interest him, such as motor cars.",
+  },
+
+  jinghao: {
+    talent: "Drawing & Sculpting",
+    description:
+      "Jing Hao is a young creative who enjoys drawing and sculpting dinosaurs, cartoon-style characters and original creations inspired by his imagination.",
+  },
+
+  kaizhi: {
+    talent: "Cooking & Drawing",
+    description:
+      "He used to lack confidence because he learned more slowly than others, but drawing helped him discover his strengths. His passion for cooking continues to grow through cooking classes, and he has become a great help to his teachers at school.",
+  },
+
+  keith: {
+    talent: "Drawing & Swimming",
+    description:
+      "He is a passionate, detail-oriented young artist who loves creating unique characters and beautiful landscapes. He has a deep affection for animals, especially cats, and enjoys expressing his individuality through his unique fashion style.",
+  },
+
+  meiyan: {
+    talent: "Sports, Drawing & Crafting",
+    description:
+      "She enjoys making clay crafts, perler bead creations, puzzles and especially drawing anime characters. At school, she actively participates in sports and hands-on activities.",
+  },
+
+  wingyan: {
+    talent: "Dancing, Singing, Drawing & Cooking",
+    description:
+      "She enjoys listening to music while making handmade crafts, just like her older sister. She also enjoys puzzles, perler beads, making beaded jewellery and recently discovered a love for making pancakes.",
+  },
+
+  yongearng: {
+    talent: "Drawing & Dancing",
+    description:
+      "Yong Earng is a soft-spoken and shy young girl who enjoys expressing herself through drawing and dancing.",
+  },
+
+  zixiang: {
+    talent: "Drawing, Gaming & Ball Games",
+    description:
+      "He is caring and always willing to help others. He enjoys playing Minecraft and drawing Minecraft characters while expressing his own creative ideas.",
+  },
+
+  yanxin: {
+    talent: "Drawing",
+    description:
+      "She is a quiet and gentle girl who enjoys drawing. She loves spending her free time sketching on paper or creating artwork on her iPad.",
+  },
+
+  zixin: {
+    talent: "Drawing, Singing & Dancing",
+    description:
+      "She enjoys singing, dancing, drawing and colouring anything that inspires her creativity.",
+  },
+},
 },
 voices: {
   eyebrow: "Parents & Community Voices",
