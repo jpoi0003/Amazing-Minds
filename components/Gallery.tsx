@@ -50,6 +50,11 @@ const artworks = [
 export default function Gallery() {
   const { language } = useLanguage();
   const t = translations[language];
+  const whatsappBuy =
+  "https://wa.me/60127278076?text=" +
+  encodeURIComponent(
+    "Hello! I’m interested in buying artwork from Amazing Minds. Could you share more details with me?"
+  );
 
   return (
     <section id="artwork" className="py-20 md:py-32 bg-[#FAF8FF]">
@@ -137,32 +142,62 @@ export default function Gallery() {
               {t.gallery.ctaDescription}
             </p>
 
-            <a
-              href="https://drive.google.com/drive/folders/16mpvz8YYcJ2YDVUW2A_8X2dWV6ZwQcL8?usp=share_link"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="
-                mt-10
-                inline-flex
-                items-center
-                gap-3
-                rounded-full
-                bg-[#4B2D8F]
-                px-8
-                py-4
-                font-medium
-                text-white
-                shadow-lg
-                transition
-                duration-300
-                hover:-translate-y-1
-                hover:bg-[#38216b]
-                hover:shadow-2xl
-              "
-            >
-              {t.gallery.browse}
-              <span className="text-xl">↗</span>
-            </a>
+            <div className="mt-10 flex flex-wrap justify-center gap-5">
+
+  {/* Browse Collection */}
+  <a
+    href="https://drive.google.com/drive/folders/16mpvz8YYcJ2YDVUW2A_8X2dWV6ZwQcL8?usp=share_link"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="
+      inline-flex
+      items-center
+      gap-3
+      rounded-full
+      bg-[#4B2D8F]
+      px-8
+      py-4
+      font-medium
+      text-white
+      shadow-lg
+      transition
+      duration-300
+      hover:-translate-y-1
+      hover:bg-[#38216b]
+      hover:shadow-2xl
+    "
+  >
+    {t.gallery.browse}
+    <span className="text-xl">↗</span>
+  </a>
+
+  {/* Buy Artwork */}
+  <a
+    href={whatsappBuy}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="
+      inline-flex
+      items-center
+      rounded-full
+      border-2
+      border-[#4B2D8F]
+      px-8
+      py-4
+      font-medium
+      text-[#4B2D8F]
+      transition
+      duration-300
+      hover:bg-[#4B2D8F]
+      hover:text-white
+      hover:-translate-y-1
+      hover:shadow-xl
+    "
+  >
+    {t.gallery.buyArtwork}
+  </a>
+
+</div>
 
           </div>
 
