@@ -148,6 +148,12 @@ ${form.message}
             onChange={handleChange}
             className="w-full p-4 rounded-xl border focus:outline-none focus:ring-2 focus:ring-[#4B2D8F]"
           >
+
+            <option value="Buy Artworks">
+              {t.contact.buyArtworks}
+            </option>
+
+
             <option value="Volunteering">
               {t.contact.volunteer}
             </option>

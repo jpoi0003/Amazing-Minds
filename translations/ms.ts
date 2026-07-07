@@ -112,7 +112,7 @@ gallery: {
   ctaTitle: "Terokai Koleksi Lengkap Kami",
 
   ctaDescription:
-    "Lihat katalog penuh kami yang menampilkan beg buatan tangan, lukisan, seni batu, alas cawan dan pelbagai lagi hasil kreatif daripada artis Amazing Minds.",
+    "Jika anda berminat untuk melihat hasil seni menakjubkan yang dihasilkan oleh anak-anak kami, sila klik pautan di bawah untuk melayari katalog lengkap kami,menampilkan beg tangan buatan tangan, lukisan, seni batu, alas cawan, dan pelbagai lagi ciptaan unik oleh para seniman Amazing Minds.",
 
   browse: "Lihat Koleksi Lengkap",
 },
@@ -152,6 +152,8 @@ contact: {
   emailPlaceholder: "E-mel Anda",
   message: "Mesej Anda",
 
+  
+  buyArtworks: "Membeli Karya Seni",
   volunteer: "Sukarelawan",
   donate: "Sumbangan",
   events: "Ketahui lebih lanjut tentang acara",
