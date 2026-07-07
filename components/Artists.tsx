@@ -49,7 +49,7 @@ const artists = [
     name: "Hoh Xin Ling",
     talent: "Mixed Media Art",
     supportneeds: "ADHD",
-    image: "/artists/xinling.jpg",
+    image: "/artists/hohxinling.jpg",
     description:
       "Xin Ling explores expressive mixed media techniques, turning emotions into bold visual stories.",
   },
@@ -121,7 +121,7 @@ const artists = [
     name: "Low Yan Xin",
     talent: "Acrylic Painting",
     supportneeds: "Autism Spectrum Disorder",
-    image: "/artists/yanxin.jpg",
+    image: "/artists/lowyanxin.jpg",
     description:
       "Yan Xin enjoys experimenting with bold colours and textures, creating expressive artwork inspired by everyday life.",
   },
