@@ -138,6 +138,12 @@ voices: {
   volunteer: "Jadi Sukarelawan",
   partner: "Jadi Rakan Kerjasama",
 },
+future: {
+  eyebrow: "Masa Depan Kami",
+  title: "Melangkah ke Hadapan",
+  description:
+    "Kami membayangkan masa depan di mana setiap individu berkeperluan khas diberi peluang untuk menyerlahkan potensi, mengekspresikan kreativiti dan diraikan sebagai sebahagian daripada komuniti.",
+},
 contact: {
   title: "Hubungi Kami",
   description:

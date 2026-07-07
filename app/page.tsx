@@ -6,6 +6,7 @@ import Story from "@/components/Story";
 import Artists from "@/components/Artists";
 import Gallery from "@/components/Gallery";
 import Voices from "@/components/Voices";
+import Future from "@/components/Future";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
@@ -20,6 +21,7 @@ export default function Home() {
       <Artists />
       <Gallery />
       <Voices />
+      <Future />
       <Contact />
       <Footer />
     </main>

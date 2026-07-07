@@ -138,6 +138,12 @@ voices: {
   volunteer: "Become a Volunteer",
   partner: "Partner With Us",
 },
+future: {
+  eyebrow: "Our Future",
+  title: "Looking Ahead",
+  description:
+    "We envision a future where every individual with special needs is empowered to discover their potential, express their creativity, and be celebrated as an important part of our community.",
+},
 contact: {
   title: "Contact Us",
   description:

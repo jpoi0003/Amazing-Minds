@@ -138,6 +138,12 @@ voices: {
   volunteer: "成为志愿者",
   partner: "成为合作伙伴",
 },
+future: {
+  eyebrow: "我们的未来",
+  title: "展望未来",
+  description:
+    "我们希望创造一个更加包容的未来，让每一位特殊需要人士都能发挥潜能、展现创意，并成为社区中被欣赏与尊重的一份子。",
+},
 contact: {
   title: "联系我们",
   description:
