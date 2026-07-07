@@ -7,35 +7,35 @@ import { translations } from "@/translations";
 const artists = [
   {
     name: "John Hananiah Ravi",
-    talent: "Abstract Painting",
-    supportneeds: "ADHD",
+    talent: "Drawing, Singing, Dancing",
+    supportneeds: "Autism",
     image: "/artists/john.jpg",
     description:
-      "John loves exploring colours and abstract shapes. Through painting, he expresses emotions that words cannot describe.",
+      "He is happy and loves what he does while painting and drawing. He has his own creative way with colours and enjoys drawing cartoon characters.",
   },
   {
-    name: "Charlene Sng",
-    talent: "Music & Singing",
-    supportneeds: "Autism Spectrum Disorder",
+    name: "Charlene Sng Xin Yu",
+    talent: "Singing, Learning different languages, Drawing, Swimming and Drum 24 season drum",
+    supportneeds: "Autism spectrum ADHD second stage",
     image: "/artists/charlene.jpg",
     description:
-      "Charlene enjoys expressing herself through music and performing. Her passion brings happiness to everyone around her.",
+      "She enjoys singing while drawing. She has a strong passion for recreating cartoons and items she discovers on Google. To improve her skills, she independently searches for 'how to draw' tutorials on YouTube and follows them step-by-step.",
   },
   {
-    name: "Wan Ahmad Ziyad Danish",
-    talent: "Watercolour Art",
-    supportneeds: "Down Syndrome",
+    name: "Wan Ahmad Ziyad Danish bin Wan Mohd Firdaus",
+    talent: "Drawing, Gaming & Swimming",
+    supportneeds: "Autism",
     image: "/artists/ahmad.jpg",
     description:
-      "Ahmad enjoys painting landscapes and nature. His colourful artwork reflects positivity and imagination.",
+      "He is kind-hearted and gentle, though sometimes emotional. He loves playing Minecraft on his Switch and drawing Minecraft characters.",
   },
   {
     name: "Eva Tan Yu Xin",
-    talent: "Craft & Illustration",
-    supportneeds: "ADHD",
+    talent: "Drawing, Swimming",
+    supportneeds: "Moderate Autism Spectrum Disorder (ASD)",
     image: "/artists/eva.jpg",
     description:
-      "Eva loves creating handmade crafts and illustrations that reflect her joyful personality.",
+      "She loves expressing her creativity freely, prefers using her favorite colors to draw the things she likes, and genuinely enjoys drawing.",
   },
   {
     name: "Choi Xin Yong",
@@ -47,27 +47,27 @@ const artists = [
   },
   {
     name: "Hoh Xin Ling",
-    talent: "Mixed Media Art",
-    supportneeds: "ADHD",
+    talent: "Singing, Dancing & Drawing",
+    supportneeds: "Mild low self-esteem and speech delay",
     image: "/artists/hohxinling.jpg",
     description:
-      "Xin Ling explores expressive mixed media techniques, turning emotions into bold visual stories.",
+      "She enjoys expressing herself through music, singing, dancing, and drawing.",
   },
   {
     name: "Jayden Lee Geng Hin",
-    talent: "Acrylic Painting",
-    supportneeds: "Autism Spectrum Disorder",
+    talent: "Good memory, Drumming and Drawing",
+    supportneeds: "Autism & ADHD",
     image: "/artists/jayden.jpg",
     description:
-      "Jayden enjoys experimenting with bold colours and textures, creating expressive artwork inspired by everyday life.",
+      "He loves drawing and is a very observant child. He has a good eye for detail and an excellent memory, especially for things he is interested in, such as motor cars.",
   },
   {
     name: "Lim Jing Hao",
-    talent: "Mixed Media Art",
-    supportneeds: "ADHD",
+    talent: "Drawing & Sculpting",
+    supportneeds: "Autism & ADD, Colour Vision Deficiency",
     image: "/artists/jinghao.jpg",
     description:
-      "Jing Hao explores expressive mixed media techniques, turning emotions into bold visual stories.",
+      "Jing Hao is a young creative who enjoys drawing and sculpting dinosaurs, cartoon-style characters and original characters inspired by his imagination.",
   },
   {
     name: "Liang Kai Zhi",
@@ -79,11 +79,11 @@ const artists = [
   },
   {
     name: "Chua Pin Jie Keith",
-    talent: "Mixed Media Art",
-    supportneeds: "ADHD",
+    talent: "Drawing & Swimming",
+    supportneeds: "Autism",
     image: "/artists/keith.jpg",
     description:
-      "Keith explores expressive mixed media techniques, turning emotions into bold visual stories.",
+      "He is a passionate, detail-oriented young artist who loves creating unique characters and beautiful landscapes. He has a deep affection for animals, especially cats, and is a kind, compassionate child. He also has his own unique style and enjoys wearing hoodie jackets that reflect his individuality.",
   },
   {
     name: "Fong Mei Yan",
@@ -103,11 +103,11 @@ const artists = [
   },
   {
     name: "Ngiaw Yong Earng",
-    talent: "Acrylic Painting",
-    supportneeds: "Autism Spectrum Disorder",
+    talent: "Drawing and Dancing",
+    supportneeds: "Intellectual disability",
     image: "/artists/yongearng.jpg",
     description:
-      "Yong Earng enjoys experimenting with bold colours and textures, creating expressive artwork inspired by everyday life.",
+      "Yong Earng is a soft-spoken and shy young girl.",
   },
   {
     name: "Sin Zi Xiang",
@@ -119,19 +119,19 @@ const artists = [
   },
   {
     name: "Low Yan Xin",
-    talent: "Acrylic Painting",
-    supportneeds: "Autism Spectrum Disorder",
+    talent: "Drawing",
+    supportneeds: "Intellectual disability",
     image: "/artists/lowyanxin.jpg",
     description:
-      "Yan Xin enjoys experimenting with bold colours and textures, creating expressive artwork inspired by everyday life.",
+      "She is a slow-talking, quiet girl who loves drawing and enjoys spending time drawing on her draft paper or iPad.",
   },
   {
     name: "Lam Zi Xin",
-    talent: "Mixed Media Art",
-    supportneeds: "ADHD",
+    talent: "Drawing, Singing & Dancing",
+    supportneeds: "Down Syndrome",
     image: "/artists/zixin.jpg",
     description:
-      "Zi Xin explores expressive mixed media techniques, turning emotions into bold visual stories.",
+      "She enjoys singing, dancing, drawing, and colouring whatever she likes.",
   },
 ];
 
