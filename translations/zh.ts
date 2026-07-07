@@ -77,14 +77,14 @@ journey: {
   events: [
     {
       title: "MUPhaS 公共卫生活动 2026",
-      subtitle: "看不见的心灵：与众不同，同样珍贵",
+      subtitle: "Unseen Minds: Wired Differently, Valued Equally",
       location: "莫纳什大学马来西亚分校",
       date: "2026年3月24–25日",
       description:
         "Amazing Minds 与莫纳什大学马来西亚分校合作举办 MUPhaS 公共卫生活动，通过艺术及互动活动促进公众对神经多样性及特殊人士的理解与包容。",
     },
     {
-      title: "两天一夜乌鲁音旅游",
+      title: "两天一夜新古毛旅游",
       subtitle: "The Breeze KKB",
       location: "Kuala Kubu Bharu",
       date: "2026年5月16–17日",
