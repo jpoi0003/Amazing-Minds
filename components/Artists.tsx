@@ -111,11 +111,11 @@ const artists = [
   },
   {
     name: "Sin Zi Xiang",
-    talent: "Mixed Media Art",
-    supportneeds: "ADHD",
+    talent: "Drawing, Gaming & Ball Games",
+    supportneeds: "Autism",
     image: "/artists/zixiang.jpg",
     description:
-      "Zi Xiang explores expressive mixed media techniques, turning emotions into bold visual stories.",
+      "He is very helpful and cares about those around him. He has his own ideas. He enjoys playing Minecraft and drawing Minecraft characters.",
   },
   {
     name: "Low Yan Xin",
