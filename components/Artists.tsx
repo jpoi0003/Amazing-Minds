@@ -15,7 +15,7 @@ const artists = [
   },
   {
     name: "Charlene Sng Xin Yu",
-    talent: "Singing, Learning different languages, Drawing, Swimming and Drum 24 season drum",
+    talent: "Singing, Learning different languages, Drawing, Swimming & 24 Season Drum",
     supportneeds: "Autism spectrum ADHD second stage",
     image: "/artists/charlene.jpg",
     description:
@@ -39,11 +39,11 @@ const artists = [
   },
   {
     name: "Choi Xin Yong",
-    talent: "Acrylic Painting",
-    supportneeds: "Autism Spectrum Disorder",
+    talent: "Drawing & Football",
+    supportneeds: "Intellectual Disability",
     image: "/artists/xinyong.jpg",
     description:
-      "Xin Yong enjoys experimenting with bold colours and textures, creating expressive artwork inspired by everyday life.",
+      "He loves using a vibrant palette of colors, meticulously crafting his artwork stroke by stroke. Once finished, he feels an immense sense of joy and pride.",
   },
   {
     name: "Hoh Xin Ling",
@@ -71,11 +71,11 @@ const artists = [
   },
   {
     name: "Liang Kai Zhi",
-    talent: "Acrylic Painting",
-    supportneeds: "Autism Spectrum Disorder",
+    talent: "Cooking & Drawing",
+    supportneeds: "Slow Learner / Dyslexia",
     image: "/artists/kaizhi.jpg",
     description:
-      "Kai Zhi enjoys experimenting with bold colours and textures, creating expressive artwork inspired by everyday life.",
+      "He used to lack confidence as a slower learner, but found it through drawing. Meanwhile, his passion for cooking has led to continuous growth, and he now develops his skills in cooking classes. He has become a great help to his teachers at school!",
   },
   {
     name: "Chua Pin Jie Keith",
@@ -87,19 +87,19 @@ const artists = [
   },
   {
     name: "Fong Mei Yan",
-    talent: "Acrylic Painting",
-    supportneeds: "Autism Spectrum Disorder",
+    talent: "Sport, Drawing & Crafting",
+    supportneeds: "Specific Learning Disability (SLD)",
     image: "/artists/meiyan.jpg",
     description:
-      "Mei Yan enjoys experimenting with bold colours and textures, creating expressive artwork inspired by everyday life.",
+      "In everyday life, she likes to make crafts like clay, perler beads, and puzzles, and most of all, she likes drawing anime characters. At school, she tends to participate in sports and practical activities.",
   },
   {
     name: "Fong Wing Yan",
-    talent: "Mixed Media Art",
-    supportneeds: "ADHD",
+    talent: "Dancing, Singing, Drawing & Cooking",
+    supportneeds: "Autism",
     image: "/artists/wingyan.jpg",
     description:
-      "Wing Yan explores expressive mixed media techniques, turning emotions into bold visual stories.",
+      "In everyday life, she likes to listen to songs while making creative handcrafts, just like her older sister. She also enjoys puzzles, perler beads, and making beaded necklaces and bracelets. Now, she has a new hobby like making pancakes.",
   },
   {
     name: "Ngiaw Yong Earng",
