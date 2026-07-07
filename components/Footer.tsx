@@ -102,11 +102,16 @@ export default function Footer() {
           </p>
 
           <p className="text-gray-400">
-            {t.footer.createdBy}{" "}
-            <span className="text-[#F6C453] font-medium">
-              Juliana Poi (Monash University Malaysia)
-            </span>
-          </p>
+  {t.footer.createdBy}{" "}
+  <a
+    href="https://www.linkedin.com/in/juliana-poi-63a1bb393/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-[#F6C453] font-medium hover:text-[#FFD76A] hover:underline transition-colors duration-300"
+  >
+    Juliana Poi (Monash University Malaysia)
+  </a>
+</p>
 
         </div>
 
