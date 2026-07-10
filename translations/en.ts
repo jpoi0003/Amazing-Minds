@@ -251,7 +251,7 @@ contact: {
   email: "Email",
   phone: "Phone",
   whatsapp: "WhatsApp: Chat with us",
-  facebook: "Facebook: Visit our page",
+  facebook: "Facebook: Visit our page, please like and share to your family and friends.",
 
   name: "Your Name",
   emailPlaceholder: "Your Email",

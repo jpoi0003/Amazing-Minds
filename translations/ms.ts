@@ -253,7 +253,7 @@ contact: {
   email: "E-mel",
   phone: "Telefon",
   whatsapp: "WhatsApp: Hubungi kami",
-  facebook: "Facebook: Lawati halaman kami",
+  facebook: "Facebook: Lawati halaman kami, Sila kongsi pautan ini dengan rakan-rakan anda untuk menyebarkan kesedaran tentang Amazing Minds.",
 
   name: "Nama Anda",
   emailPlaceholder: "E-mel Anda",

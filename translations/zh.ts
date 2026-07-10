@@ -251,7 +251,7 @@ contact: {
   email: "电子邮件",
   phone: "电话",
   whatsapp: "WhatsApp 联系我们",
-  facebook: "Facebook 专页",
+  facebook: "Facebook 专页， 请访问我们的页面，并与朋友分享此链接，以提高对 Amazing Minds 的认识。",
 
   name: "您的姓名",
   emailPlaceholder: "您的电子邮件",
