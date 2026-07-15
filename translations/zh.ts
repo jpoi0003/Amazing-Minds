@@ -108,6 +108,7 @@ gallery: {
     "探索充满创意与个性的手工作品，欣赏 Amazing Minds 艺术家的无限才华。",
 
   createdBy: "创作者：",
+  size: "尺寸",
 
   ctaTitle: "探索完整作品集",
 

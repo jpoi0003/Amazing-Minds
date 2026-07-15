@@ -7,41 +7,49 @@ import { translations } from "@/translations";
 const artworks = [
   {
     category: "Tote Bag (B)",
+    size: "34cm L x 33.7cm H",
     artist: "John",
     image: "/gallery/johntotebag.jpg",
   },
   {
     category: "Cosmetic Pouch",
+    size: "21.7cm L x 14cm H",
     artist: "John",
     image: "/gallery/johncosmeticpouch.jpg",
   },
   {
     category: "Tote Bag (B)",
+    size: "34cm L x 33.7cm H",
     artist: "Jing Hao",
     image: "/gallery/jinghaototebag.jpg",
   },
   {
     category: "Cosmetic Pouch",
+    size: "21.7cm L x 14cm H",
     artist: "Kai Zhi",
     image: "/gallery/kaizhicosmeticpouch.jpg",
   },
   {
     category: "Sling Bag",
+    size: "17cm L x 24.5cm H",
     artist: "Mei Yan",
     image: "/gallery/meiyanslingbag.jpg",
   },
   {
     category: "Sling Bag",
+    size: "17cm L x 24.5cm H",
     artist: "Xin Ling",
     image: "/gallery/xinlingslingbag.jpg",
   },
   {
     category: "Tote Bag (S)",
+    size: "29cm L x 33cm H",
     artist: "Kai Zhi",
     image: "/gallery/kaizhitotebag.jpg",
   },
   {
     category: "Tote Bag (S)",
+    size: "29cm L x 33cm H",
     artist: "Zi Xiang",
     image: "/gallery/zixiangtotebag.jpg",
   },
@@ -116,6 +124,10 @@ export default function Gallery() {
                 <span className="inline-block rounded-full bg-[#4B2D8F]/10 px-4 py-2 text-xs font-medium text-[#4B2D8F]">
                   {art.category}
                 </span>
+
+                <p className="mt-4 text-sm text-gray-500">
+    <span className="font-medium">{t.gallery.size}:</span> {art.size}
+  </p>
 
                 <p className="mt-4 text-gray-500">
                   {t.gallery.createdBy} {art.artist}

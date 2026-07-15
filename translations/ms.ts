@@ -108,6 +108,7 @@ gallery: {
     "Temui hasil karya buatan tangan yang meraikan kreativiti, keunikan dan bakat luar biasa para artis Amazing Minds.",
 
   createdBy: "Dihasilkan oleh",
+  size: "Saiz",
 
   ctaTitle: "Terokai Koleksi Lengkap Kami",
 

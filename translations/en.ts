@@ -108,6 +108,7 @@ gallery: {
     "Discover handcrafted creations that celebrate creativity, individuality and the incredible talents of our Amazing Minds artists.",
 
   createdBy: "Created by",
+  size: "Size",
 
   ctaTitle: "Explore Our Complete Collection",
 
