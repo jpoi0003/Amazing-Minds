@@ -113,7 +113,7 @@ gallery: {
   ctaTitle: "Terokai Koleksi Lengkap Kami",
 
   ctaDescription:
-    "Jika anda berminat untuk melihat hasil seni menakjubkan yang dihasilkan oleh anak-anak kami, sila klik pautan di bawah untuk melayari katalog lengkap kami,menampilkan beg tangan buatan tangan, lukisan, seni batu, alas cawan, dan pelbagai lagi ciptaan unik oleh para seniman Amazing Minds.",
+    "Jika anda berminat untuk melihat hasil seni menakjubkan yang dihasilkan oleh anak-anak kami, sila klik pautan di bawah untuk melayari katalog lengkap kami,menampilkan Seni Doodle, Kayu, Lencana Magnet, Lukisan Batu, Ukiran Kayu dan pelbagai lagi ciptaan unik oleh para seniman Amazing Minds.",
 
   browse: "Lihat Koleksi Lengkap",
   buyArtwork: "Beli Karya Seni",

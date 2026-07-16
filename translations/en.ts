@@ -113,7 +113,7 @@ gallery: {
   ctaTitle: "Explore Our Complete Collection",
 
   ctaDescription:
-    "If you're interested in seeing the incredible artwork our children have created, please check out the following link to browse our complete catalogue, featuring handmade bags, paintings, rock art, coasters, and many more unique creations by our Amazing Minds artists.",
+    "If you're interested in seeing the incredible artwork our children have created, please check out the following link to browse our complete catalogue, featuring Doodle Art, Log Wood, Magnetic Badge, Rock Painting, Wood Sculptures and many more unique creations by our Amazing Minds artists.",
 
   browse: "Browse Full Collection",
   buyArtwork: "Buy Artwork",
