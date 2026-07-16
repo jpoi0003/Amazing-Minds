@@ -14,7 +14,7 @@ const artworks = [
   {
     category: "Masterpiece",
     size: "30cm L x 40-42cm H",
-    artist: "Kaizhi",
+    artist: "Kai Zhi",
     image: "/gallery/kaizhimasterpiece.jpg",
   },
   {
