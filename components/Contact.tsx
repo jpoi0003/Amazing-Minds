@@ -70,12 +70,12 @@ ${form.message}
 
             {/* Email */}
             <a
-              href="mailto:Brightbridgehubs@gmail.com"
+              href="mailto:brightbridgehubs@gmail.com"
               className="flex items-center gap-3 hover:text-[#4B2D8F] transition"
             >
               📧
               <span>
-                {t.contact.email}: Brightbridgehubs@gmail.com
+                {t.contact.email}: brightbridgehubs@gmail.com
               </span>
             </a>
 
