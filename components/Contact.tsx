@@ -43,7 +43,7 @@ ${form.message}
   }
 
   const whatsappLink =
-    "https://wa.me/60127278076?text=" +
+    "https://wa.me/601126285388?text=" +
     encodeURIComponent(
       "Hello! I would like to know more about Amazing Minds programs and how I can get involved."
     );
@@ -81,12 +81,12 @@ ${form.message}
 
             {/* Phone */}
             <a
-              href="tel:+60127278076"
+              href="tel:+601126285388"
               className="flex items-center gap-3 hover:text-[#4B2D8F] transition"
             >
               📞
               <span>
-                {t.contact.phone}: +60 12-727 8076
+                {t.contact.phone}: +60 11-262 85388
               </span>
             </a>
 

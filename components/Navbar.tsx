@@ -25,7 +25,7 @@ export default function Navbar() {
   const t = translations[language];
 
   const whatsappLink =
-    "https://wa.me/60127278076?text=" +
+    "https://wa.me/601126285388?text=" +
     encodeURIComponent(
       "Hello! I’m interested in volunteering with Amazing Minds. Could you share more details with me?"
     );

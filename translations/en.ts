@@ -22,7 +22,7 @@ const en = {
   label: "About Amazing Minds",
   title: "Our Story",
 
-  p1: "Amazing Minds was founded in July 2022 by Sabrina, a mentor for children with special needs and a 2023 Encyclopedia Britannica honoree. Her vision is to establish a training center that equips children with practical skills, enabling self-reliance and easing family burdens.",
+  p1: "Amazing Minds was founded in July 2022 by Sabrina, a mentor for children with special needs and a 5th Edition Encyclopedia Book Titled Successful People in Malaysia honoree. Her vision is to establish a training center that equips children with practical skills, enabling self-reliance and easing family burdens.",
 
   p2: "Inspired by the UniTem Ai project, Sabrina launched painting classes, expanding by June 2024 to include sign language workshops taught by deaf students. These workshops foster public communication while providing educators with income and dignity.",
 

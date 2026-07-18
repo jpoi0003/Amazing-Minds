@@ -49,13 +49,13 @@ export default function Voices() {
   }, []);
 
   const whatsappVolunteer =
-    "https://wa.me/60127278076?text=" +
+    "https://wa.me/601126285388?text=" +
     encodeURIComponent(
       "Hello! I’m interested in volunteering with Amazing Minds. Could you share more details with me?"
     );
 
   const whatsappPartner =
-    "https://wa.me/60127278076?text=" +
+    "https://wa.me/601126285388?text=" +
     encodeURIComponent(
       "Hello! I’m interested in partnering with Amazing Minds. I would love to explore collaboration opportunities."
     );
