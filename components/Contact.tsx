@@ -37,7 +37,7 @@ Message:
 ${form.message}
 `;
 
-    window.location.href = `mailto:Brightbridgehubs@gmail.com?subject=${encodeURIComponent(
+    window.location.href = `mailto:brightbridgehubs@gmail.com?subject=${encodeURIComponent(
       subject
     )}&body=${encodeURIComponent(body)}`;
   }
