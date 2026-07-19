@@ -59,7 +59,7 @@ export default function Gallery() {
   const { language } = useLanguage();
   const t = translations[language];
   const whatsappBuy =
-  "https://wa.me/60127278076?text=" +
+  "https://wa.me/601126285388?text=" +
   encodeURIComponent(
     "Hello! I’m interested in buying artwork from Amazing Minds. Could you share more details with me?"
   );
