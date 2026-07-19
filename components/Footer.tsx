@@ -84,7 +84,7 @@ export default function Footer() {
 
             <div className="space-y-3 text-gray-300">
               <p>📧 brightbridgehubs@gmail.com</p>
-              <p>📞 +60 12-727 8076</p>
+              <p>📞 +60 11-262 85388</p>
               <p>💬 {t.footer.whatsapp}</p>
             </div>
           </div>

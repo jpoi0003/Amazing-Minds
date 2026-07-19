@@ -34,7 +34,7 @@ export default function Future() {
         <div className="mt-16">
 
           <Image
-            src="/future/blueprint.jpg"
+            src="/future/blueprint2.jpg"
             alt="Amazing Minds Future"
             width={1600}
             height={900}
